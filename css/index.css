@@ -104,7 +104,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+  
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +143,86 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+li {
+    list-style: none;
+}
+button {
+    border-radius: .5em;
+    padding: 1em;
+    margin: 1em auto;
+
+}
+.dotted1, .dotted2, .dotted3, .dotted4 {
+    border-bottom: black 2px dotted;
+    padding: .4em;
+    width: 95%;
+}
+
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 2%;
+}
+
+
+.nav-items {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.nav-link {
+    color: black;
+}
+.nav-item {
+    text-decoration: none;
+ 
+}
+.intro-image{
+    margin-bottom: 1em;
+
+}
+.box1 { background: teal;}
+.box2 { background: gold;}
+.box3 { background: cadetblue;}
+.box4 { background: coral;}
+.box5 { background: crimson;}
+.box6 { background: forestgreen;}
+.box7 { background: darkorchid;}
+.box8 { background: hotpink;}
+.box9 { background: indigo;}
+.box10 { background: dodgerblue;}
+
+
+
+.about-page{
+    
+}
+.about-wrapper {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 1em auto;
+}
+.information-wrapper {
+    display: flex;
+}
+.intro-info {
+    padding-bottom: .5em;
+    margin-bottom: 1em;
+    border-bottom: black 2px dotted;
+    
+}
+.contact {
+    margin: 1.5em auto;
 }
